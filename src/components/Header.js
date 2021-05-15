@@ -2,8 +2,7 @@ import React, { useEffect } from 'react'
 import CustomButton from './CustomButton'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { Link } from '@material-ui/core';
-
-// import MenuIcon from '@material-ui/icons/Menu';
+import menuIcon from "../assets/hamburger.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -20,14 +19,13 @@ const Header = () => {
 
     return (
         <div>
-        <div className="">
-
+        <div>
         </div>
         <nav class="navbar navbar-expand-lg px-10 py-5">
   <div class="container-fluid">
     <Link data-aos="fade-right" class="navbar-brand px-0 lg:px-14" href="#"><CustomButton BtnContent="LOGO" className="text-white text-2xl p-3 px-8 outline-none bg-LogoBG font-MExtra tracking-widest hover:bg-secondary"/></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span><img src={menuIcon} className="h-10 w-10 focus:outline-none" alt=""/></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav lg:ml-auto text-primary">
