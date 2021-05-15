@@ -1,5 +1,4 @@
 import React from 'react'
-import Arrow from './Arrow'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked';
 

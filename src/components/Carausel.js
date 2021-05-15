@@ -5,8 +5,6 @@ import photo2 from "../assets/photo3.png";
 import photo3 from "../assets/photo4.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward"
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import Arrow from './Arrow';
 
 

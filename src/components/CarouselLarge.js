@@ -1,11 +1,8 @@
 import React, { Fragment } from 'react'
-import slide1 from "../assets/slide1.png";
-import slide2 from "../assets/slide2.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ImageCard from './ImageCard';
 import slide from "../assets/SliderCombineImg.png";
-import WhiteCard from './WhiteCard';
 
 
 

@@ -4,17 +4,12 @@ import Header from "./components/Header";
 import firstbg from "./assets/firstbg.png";
 import image1 from "./assets/cleaning.png";
 import Arrow from './components/Arrow';
-import secondbg from "./assets/secondbg.png";
 import WhiteCard from './components/WhiteCard';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import CustomButton from './components/CustomButton';
 import "./index.css";
-import ImageCard from "./components/ImageCard";
-import photo1 from "./assets/photo1.png";
-import photo2 from "./assets/photo3.png";
-import photo3 from "./assets/photo4.png";
 import Carausel from "./components/Carausel"; 
-import CarauselLarge from './components/CarauselLarge';
+import CarouselLarge from './components/CarouselLarge';
 import Footer from './components/Footer';
 import EmailIcon from '@material-ui/icons/Email';
 
@@ -151,7 +146,7 @@ function App() {
       <p className="font-MRegular lg:font-MBold text-xs text-faded uppercase cursor-pointer hover:text-primary">Deck Cleaning</p>
       </div>
       <div className="w-full relative">
-      <CarauselLarge />
+      <CarouselLarge />
       <div className="absolute text-4xl top-36 right-64">
       <div className="hidden xl:block 2xl:invisible bg-white lg:w-72 shadow-md m-auto px-10 pb-14 pt-10 justify-center">
             <p className="text-primary font-MRegular pt-4 text-sm">

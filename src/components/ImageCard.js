@@ -1,5 +1,4 @@
 import React from 'react';
-import Arrow from './Arrow';
 
 
 const ImageCard = ({ className, img, title, description, text, arrow }) => {
